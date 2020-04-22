@@ -1,0 +1,131 @@
+<!doctype>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+<!--link rel ="stylesheet" href="css/bootstrap.min.css"-->
+<link rel ="stylesheet" href="css/bootstrap.min_old.css">
+<link rel ="stylesheet" href="css/estilos.css">
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/bootbox.min.js"></script>
+
+
+
+</head>
+<body color="#hhr">
+<h1> Escuela Tecnica Nro 1</h1>
+<section>  
+  <ul class="nav nav-tabs"> 
+		<li role="index" class=""><a href="index.html"> Inicio </a> </li>	 
+		<li><a href="Primero.html">Ciclo Básico</a>
+					
+				</li> 
+		 <li role=""><a href="Informatica.html"> Informática </a> </li>
+		<li role=""><a href="MMObra.html"> Maestro Mayor de Obra </a> </li>
+		<li role=""><a href="quimicaModal.html"> Química </a> </li>
+		 <li role=""><a href="galeriaFotos.html"> Galería de Fotos </a> </li> 
+		 <li role=""><a href="Contactos.html">Contactos </a> </li> 
+	</ul> 
+
+</section>
+
+<div class="container well well-large">
+
+  <h1>Galería de Informática</h1>
+
+  <hr>
+
+
+  <hr>
+
+  <ul class="thumbnails">
+    <li data-type="biblioteca" data-id="id-1" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca1"><img id="miImagen" src="img/Biblioteca1.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-2" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca"><img id="miImagen" src="img/Biblioteca.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-3" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca2"><img id="miImagen" src="img/Biblioteca2.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-4" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca3"><img id="miImagen" src="img/Biblioteca3.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-5" class="span3">
+      <a href="#" class="thumbnail" id="info1"><img id="miImagen" src="img/info1.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-6" class="span3">
+      <a href="#" class="thumbnail" id="info2"><img id="miImagen" src="img/info2.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-7" class="span3">
+      <a href="#" class="thumbnail" id="info3"><img id="miImagen" src="img/info3.jpg" alt=""></a>
+    </li>
+    <li data-type="escuela" data-id="id-8" class="span3">
+      <a href="#" class="thumbnail" id="logoviejo"><img id="miImagen" src="img/logoviejo.jpg" alt=""></a>
+    </li>
+    <li data-type="laboratorio" data-id="id-9" class="span3">
+      <a href="#" class="thumbnail" id="info4"><img id="miImagen" src="img/info4.jpg" alt=""></a>
+    </li>
+    <li data-type="laboratorio" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="info5"><img id="miImagen" src="img/info5.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="pro"><img id="miImagen" src="img/pro.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="prodos"><img id="miImagen" src="img/prodos.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="protres"><img id="miImagen" src="img/protres.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="procuatro"><img id="miImagen" src="img/procuatro.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="procinco"><img id="miImagen" src="img/procinco.jpg" alt=""></a>
+    </li>
+  </ul>	
+
+</div>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<script>
+    function gallery(){			
+	alert(´llegue´);
+            $('#Biblioteca1').click(function() { bootbox.alert('<img src="img/Biblioteca1.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca').click(function() { bootbox.alert('<img src="img/Biblioteca.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca2').click(function() { bootbox.alert('<img src="img/Biblioteca2.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca3').click(function() { bootbox.alert('<img src="img/Biblioteca3.jpg">').addClass("largeWidth"); });
+            $('#info1').click(function() { bootbox.alert('<img src="img/info1.jpg"><h4>Laboratorio</h4>').addClass("largeWidth");; });
+            $('#info2').click(function() { bootbox.alert('<img src="img/info2.jpg"><h4>Laboratorio</h4>').addClass("largeWidth");; });
+            $('#info3').click(function() { bootbox.alert('<img src="img/info3.jpg"><h4>Laboratorio</h4>').addClass("largeWidth");; });
+            $('#logoviejo').click(function() { bootbox.alert('<img src="img/logoviejo.jpg"><h4>Escuela</h4>').addClass("largeWidth");; });
+            $('#info4').click(function() { bootbox.alert('<img src="img/info4.jpg"><h4>Laboratorio</h4>').addClass("largeWidth");; });
+            $('#info5').click(function() { bootbox.alert('<img src="img/info5.jpg"><h4>Laboratorio</h4>').addClass("largeWidth");; });
+			$('#info5').click(function() { bootbox.alert('<img src="img/pro.jpg"><h4>Proyecto</h4>').addClass("largeWidth");; });
+			$('#info5').click(function() { bootbox.alert('<img src="img/prodos.jpg"><h4>Proyecto</h4>').addClass("largeWidth");; });
+            $('#info5').click(function() { bootbox.alert('<img src="img/protres.jpg"><h4>Proyecto</h4>').addClass("largeWidth");; });
+			$('#info5').click(function() { bootbox.alert('<img src="img/procuatro.jpg"><h4>Proyecto</h4>').addClass("largeWidth");; });
+			$('#info5').click(function() { bootbox.alert('<img src="img/procinco.jpg"><h4>Proyecto</h4>').addClass("largeWidth");; });
+        }
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone(); 
+    var $filterClass = "";
+    $('ul.filter li').click(function(e) {
+    e.preventDefault();
+    $filterClass = $(this).attr('data-value');
+        if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+        else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
+        $itemsHolder.quicksand(
+          $filters,
+          { duration: 1000 },
+          gallery
+          );
+    });
+    $(document).ready(gallery);
+</script>
+
+
+</body>
+</html>

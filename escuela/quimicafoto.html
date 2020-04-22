@@ -1,0 +1,132 @@
+<!doctype>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+<!--link rel ="stylesheet" href="css/bootstrap.min.css"-->
+<link rel ="stylesheet" href="css/bootstrap.min_old.css">
+<link rel ="stylesheet" href="css/estilos.css">
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/bootbox.min.js"></script>
+
+
+
+</head>
+<body color="#hhr">
+<object width="100%" height="200" >
+<param name="movie" value="img/Sin título-3.swf" >
+<param name="movie" align="left" > 
+<param name="play" value="true" > 
+<embed src="img/Sin título-3.swf" >
+</embed>
+</object>
+<section>  
+  <ul class="nav nav-tabs"> 
+		<li role="index" class=""><a href="index.html"> Inicio </a> </li>	 
+		<li><a href="Primero.html">Ciclo Básico</a>
+		</li> 
+		 <li role=""><a href="Informatica.html"> Informática </a> </li>
+		<li role=""><a href="MMObra.html"> Maestro Mayor de Obra </a> </li>
+		<li role=""><a href="quimicaModal.html"> Química </a> </li>
+		 <li role=""><a href="galeriaFotos.html"> Galería de Fotos </a> </li> 
+		 <li role=""><a href="Contactos.html">Contactos </a> </li> 
+	</ul> 
+
+</section>
+
+<div class="container well well-large">
+
+  <h1>Galería de Química</h1>
+
+  <hr>
+ <ul class="filter nav nav-pills">
+	<li data-value="all"><a href="#">Todas</a></li>
+    <li data-value="alumnos"><a href="#">Alumnos</a></li>
+    <li data-value="feria"><a href="#">Ferias</a></li>
+    <li data-value="expo"><a href="#">Exposiciones</a></li>
+    <li data-value="Proyecto"><a href="#">Proyecto</a></li>
+  </ul>
+
+  <hr>
+
+  <ul class="thumbnails">
+    <li data-type="expo" data-id="id-2" class="span3">
+      <a href="#" class="thumbnail" id="quim"><img id="miImagen" src="img/quim.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-3" class="span3">
+      <a href="#" class="thumbnail" id="quimdos"><img id="miImagen" src="img/quimdos.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-4" class="span3">
+      <a href="#" class="thumbnail" id="quimtres"><img id="miImagen" src="img/quimtres.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-5" class="span3">
+      <a href="#" class="thumbnail" id="quimcuatro"><img id="miImagen" src="img/quimcuatro.jpg" alt=""></a>
+    </li>
+    
+    <li data-type="feria" data-id="id-7" class="span3">
+      <a href="#" class="thumbnail" id="quimseis"><img id="miImagen" src="img/quimseis.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-8" class="span3">
+      <a href="#" class="thumbnail" id="quimsiete"><img id="miImagen" src="img/quimsiete.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-9" class="span3">
+      <a href="#" class="thumbnail" id="quimocho"><img id="miImagen" src="img/quimocho.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="quimnueve"><img id="miImagen" src="img/quimnueve.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-11" class="span3">
+      <a href="#" class="thumbnail" id="quimdiez"><img id="miImagen" src="img/quimdiez.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-12" class="span3">
+      <a href="#" class="thumbnail" id="quimonce"><img id="miImagen" src="img/quimonce.jpg" alt=""></a>
+    </li>
+	<li data-type="alumnos" data-id="id-1" class="span3">
+      <a href="#" class="thumbnail" id="alumnos"><img id="miImagen" src="img/alumnos.jpg" alt=""></a>
+    </li>
+    <li data-type="feria" data-id="id-6" class="span3">
+      <a href="#" class="thumbnail" id="quimcinco"><img id="miImagen" src="img/quimcinco.jpg" alt=""></a>
+    </li>
+  </ul>	
+
+</div>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<script>
+    function gallery(){			
+	
+            $('#alumnos').click(function() { bootbox.alert('<img src="img/alumnos.jpg">').addClass("largeWidth"); });
+            $('#quim').click(function() { bootbox.alert('<img src="img/quim.jpg">').addClass("largeWidth"); });
+            $('#quimdos').click(function() { bootbox.alert('<img src="img/quimdos.jpg">').addClass("largeWidth"); });
+            $('#quimtres').click(function() { bootbox.alert('<img src="img/quimtres.jpg">').addClass("largeWidth"); });
+            $('#quimcuatro').click(function() { bootbox.alert('<img src="img/quimcuatro.jpg">').addClass("largeWidth");; });
+            $('#quimcinco').click(function() { bootbox.alert('<img src="img/quimcinco.jpg">').addClass("largeWidth");; });
+            $('#quimseis').click(function() { bootbox.alert('<img src="img/quimseis.jpg">').addClass("largeWidth");; });
+            $('#quimsiete').click(function() { bootbox.alert('<img src="img/quimsiete.jpg">').addClass("largeWidth");; });
+            $('#quimocho').click(function() { bootbox.alert('<img src="img/quimocho.jpg">').addClass("largeWidth");; });
+            $('#quimnueve').click(function() { bootbox.alert('<img src="img/quimnueve.jpg">').addClass("largeWidth");; });
+			$('#quimdiez').click(function() { bootbox.alert('<img src="img/quimdiez.jpg">').addClass("largeWidth");; });
+			$('#quimonce').click(function() { bootbox.alert('<img src="img/quimonce.jpg">').addClass("largeWidth");; });
+
+        }
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone(); 
+    var $filterClass = "";
+    $('ul.filter li').click(function(e) {
+    e.preventDefault();
+    $filterClass = $(this).attr('data-value');
+        if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+        else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
+        $itemsHolder.quicksand(
+          $filters,
+          { duration: 1000 },
+          gallery
+          );
+    });
+    $(document).ready(gallery);
+</script>
+
+
+</body>
+</html>

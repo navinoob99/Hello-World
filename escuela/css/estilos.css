@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+img{
+	width: auto;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+head {
+	border-radius: 10px;
+}
+body {
+	background: url(../img/escuelafondo.jpg);background-repeat: no-repeat; 
+	width: auto;
+	color: #fff;
+	background-attachment: fixed;
+	background-position: 50% 0;
+}
+.datos {
+	width: auto;
+	background: #176C96;
+	color: #fff;
+	border-radius: 10px;
+}
+.datos2 {
+	width: auto;
+	background: #176C96;
+	color: #fff;
+	border-radius: 10px;
+}
+.datos3 {
+	width: auto;
+	background: #176C96;
+	color: #fff;
+	border-radius: 10px
+}
+.datos4 {
+	width: auto;
+	background: #176C96;
+	color: #fff;
+	border-radius: 10px
+}
+.imagenes {
+	width: auto;
+	border-radius: 10px;
+}
+.boton {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}

@@ -1,0 +1,135 @@
+<!doctype>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+<!--link rel ="stylesheet" href="css/bootstrap.min.css"-->
+<link rel ="stylesheet" href="css/bootstrap.min_old.css">
+<link rel ="stylesheet" href="css/estilos.css">
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/bootbox.min.js"></script>
+
+
+
+</head>
+<body color="#hhr">
+<object width="100%" height="200" >
+<param name="movie" value="img/Sin título-3.swf" >
+<param name="movie" align="left" > 
+<param name="play" value="true" > 
+<embed src="img/Sin título-3.swf" >
+</embed>
+</object>
+<section>  
+  <ul class="nav nav-tabs"> 
+		<li role="index" class=""><a href="index.html"> Inicio </a> </li>	 
+		<li><a href="Primero.html">Ciclo Básico</a>
+		</li> 
+		<li role=""><a href="Informatica.html"> Informática </a> </li>
+		<li role=""><a href="MMObra.html"> Maestro Mayor de Obra </a> </li>
+		<li role=""><a href="quimicaModal.html"> Química </a> </li>
+		<li role=""><a href="galeriaFotos.html"> Galería de Fotos </a> </li> 
+		<li role=""><a href="Contactos.html">Contactos </a> </li> 
+	</ul> 
+
+</section>
+
+<div class="container well well-large">
+
+  <h1>Galería de Informática</h1>
+
+  <hr>
+<ul class="filter nav nav-pills">
+	<li data-value="all"><a href="#">Todas</a></li>
+    <li data-value="Proyecto"><a href="#">Proyectos</a></li>
+    <li data-value="laboratorio"><a href="#">Sala de Informática</a></li>
+    <li data-value="escuela"><a href="#">Escuela</a></li>
+    <li data-value="biblioteca"><a href="#">Biblioteca</a></li>
+  </ul>
+  <hr>
+
+  <ul class="thumbnails">
+    
+    <li data-type="biblioteca" data-id="id-2" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca"><img id="miImagen" src="img/Biblioteca.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-3" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca2"><img id="miImagen" src="img/Biblioteca2.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-4" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca3"><img id="miImagen" src="img/Biblioteca3.jpg" alt=""></a>
+    </li>
+    <li data-type="laboratorio" data-id="id-5" class="span3">
+      <a href="#" class="thumbnail" id="info1"><img id="miImagen" src="img/info1.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-6" class="span3">
+      <a href="#" class="thumbnail" id="info2"><img id="miImagen" src="img/info2.jpg" alt=""></a>
+    </li>
+    <li data-type="biblioteca" data-id="id-7" class="span3">
+      <a href="#" class="thumbnail" id="info3"><img id="miImagen" src="img/info3.jpg" alt=""></a>
+    </li>
+     
+	<li data-type="Proyecto" data-id="id-9" class="span3">
+      <a href="#" class="thumbnail" id="prodos"><img id="miImagen" src="img/prodos.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="protres"><img id="miImagen" src="img/protres.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-11" class="span3">
+      <a href="#" class="thumbnail" id="procuatro"><img id="miImagen" src="img/procuatro.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-12" class="span3">
+      <a href="#" class="thumbnail" id="procinco"><img id="miImagen" src="img/procinco.jpg" alt=""></a>
+    </li>
+  <li data-type="biblioteca" data-id="id-1" class="span3">
+      <a href="#" class="thumbnail" id="Biblioteca1"><img id="miImagen" src="img/Biblioteca1.jpg" alt=""></a>
+    </li>
+	<li data-type="Proyecto" data-id="id-13" class="span3">
+      <a href="#" class="thumbnail" id="pro"><img id="miImagen" src="img/pro.jpg" alt=""></a>
+    </li>
+	 <li data-type="escuela" data-id="id-8" class="span3">
+      <a href="#" class="thumbnail" id="logoviejo"><img id="miImagen" src="img/logoviejo.jpg" alt=""></a>
+    </li> 
+  </ul>	
+
+</div>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<script>
+    function gallery(){			
+	
+            $('#Biblioteca1').click(function() { bootbox.alert('<img src="img/Biblioteca1.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca').click(function() { bootbox.alert('<img src="img/Biblioteca.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca2').click(function() { bootbox.alert('<img src="img/Biblioteca2.jpg">').addClass("largeWidth"); });
+            $('#Biblioteca3').click(function() { bootbox.alert('<img src="img/Biblioteca3.jpg">').addClass("largeWidth"); });
+            $('#info1').click(function() { bootbox.alert('<img src="img/info1.jpg">').addClass("largeWidth");; });
+            $('#info2').click(function() { bootbox.alert('<img src="img/info2.jpg">').addClass("largeWidth");; });
+            $('#info3').click(function() { bootbox.alert('<img src="img/info3.jpg">').addClass("largeWidth");; });
+            $('#logoviejo').click(function() { bootbox.alert('<img src="img/logoviejo.jpg">').addClass("largeWidth");; });
+           	$('#pro').click(function() { bootbox.alert('<img src="img/pro.jpg">').addClass("largeWidth");; });
+			$('#prodos').click(function() { bootbox.alert('<img src="img/prodos.jpg">').addClass("largeWidth");; });
+            $('#protres').click(function() { bootbox.alert('<img src="img/protres.jpg">').addClass("largeWidth");; });
+			$('#procuatro').click(function() { bootbox.alert('<img src="img/procuatro.jpg">').addClass("largeWidth");; });
+			$('#procinco').click(function() { bootbox.alert('<img src="img/procinco.jpg">').addClass("largeWidth");; });
+        }
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone(); 
+    var $filterClass = "";
+    $('ul.filter li').click(function(e) {
+    e.preventDefault();
+    $filterClass = $(this).attr('data-value');
+        if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+        else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
+        $itemsHolder.quicksand(
+          $filters,
+          { duration: 1000 },
+          gallery
+          );
+    });
+    $(document).ready(gallery);
+</script>
+
+
+</body>
+</html>
