@@ -1,2 +1,2 @@
 # Hello-World
-Cosas cualquiera
+Cosas mías, con las que aprendo mas cosas
